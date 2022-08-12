@@ -1,0 +1,16 @@
+@media (max-width: 912px) {
+    .header {
+        font-size: auto;
+    }
+    .headerImg {
+        height: auto;
+        margin-top: 40;
+    }
+
+
+  }
+  
+  /* @media (max-width: 615px) {
+   
+    
+  } */
