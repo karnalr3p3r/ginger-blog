@@ -18,8 +18,7 @@
     text-align: center;
     margin: 10px;
     font-size: 28px;
-    font-family: "Lora", sans-serif;
-  }
+    font-family: 'Source Sans Pro', sans-serif;  }
   
   .singlePostEdit {
     float: right;
@@ -44,8 +43,7 @@
     justify-content: space-between;
     font-size: 16px;
     color: #be9656;
-    font-family: "Varela Round", Arial, Helvetica, sans-serif;
-  }
+    font-family: 'Nunito', sans-serif;  }
   
   .singlePostAuthor{
     margin-left: 5px;

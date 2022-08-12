@@ -16,15 +16,11 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
+        <span className="sidebarTitle">Karnalr3p3r</span>
         <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
+          src="https://static-cdn.jtvnw.net/jtv_user_pictures/a7f5a5db-442d-4e47-99b0-31d205963ff6-profile_banner-480.png"
           alt=""
         />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-          necessitatibus nostrum illum reprehenderit.
-        </p>
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
@@ -37,12 +33,17 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">FOLLOW US</span>
+        <span className="sidebarTitle">FOLLOW MY SOCIALS</span>
         <div className="sidebarSocial">
-          <i className="sidebarIcon fab fa-facebook-square"></i>
-          <i className="sidebarIcon fab fa-twitter-square"></i>
-          <i className="sidebarIcon fab fa-pinterest-square"></i>
-          <i className="sidebarIcon fab fa-instagram-square"></i>
+          <a href="https://facebook.com/">
+            <i className="sidebarIcon fab fa-facebook-square"></i>
+          </a>
+          <a href="https://twitter.com/karnalr3p3r">
+            <i className="sidebarIcon fab fa-twitter-square"></i>
+          </a>
+          <a href="https://instagram.com/karnalr3p3r">
+            <i className="sidebarIcon fab fa-instagram-square"></i>
+          </a>
         </div>
       </div>
     </div>

@@ -13,10 +13,15 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
+        <a href="https://facebook.com/">
+          <i className="topIcon fab fa-facebook-square"></i>
+        </a>
+        <a href="https://twitter.com/karnalr3p3r">
+          <i className="topIcon fab fa-twitter-square"></i>
+        </a>
+        <a href="https://instagram.com/karnalr3p3r">
+          <i className="topIcon fab fa-instagram-square"></i>
+        </a>
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -26,18 +31,8 @@ export default function TopBar() {
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/">
-              ABOUT
-            </Link>
-          </li>
-          <li className="topListItem">
-            <Link className="link" to="/">
-              CONTACT
-            </Link>
-          </li>
-          <li className="topListItem">
             <Link className="link" to="/write">
-              WRITE
+              Post
             </Link>
           </li>
           <li className="topListItem" onClick={handleLogout}>
@@ -57,14 +52,13 @@ export default function TopBar() {
                 LOGIN
               </Link>
             </li>
-            <li className="topListItem">
+            {/* <li className="topListItem">
               <Link className="link" to="/register">
                 REGISTER
               </Link>
-            </li>
+            </li> */}
           </ul>
         )}
-        <i className="topSearchIcon fas fa-search"></i>
       </div>
     </div>
   );
