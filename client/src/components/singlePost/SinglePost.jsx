@@ -3,6 +3,7 @@ import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import { axiosInstance } from "../../config";
+import "./singlePost.css";
 
 export default function SinglePost() {
   const location = useLocation();

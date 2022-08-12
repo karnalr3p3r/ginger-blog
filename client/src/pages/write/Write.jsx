@@ -1,4 +1,5 @@
 import { useContext, useState } from "react";
+import "./write.css";
 import { Context } from "../../context/Context";
 import { axiosInstance } from "../../config";
 
