@@ -18,14 +18,15 @@
 
   .headerQuestion {
     position: absolute;
-    top: 18%;
-    font-size: 30px;
+    top: 20%;
+    font-size: 100px;
   }
   
   .headerTitleLg {
+   
     position: absolute;
-    top: 20%;
-    font-size: 100px;
+    top: 10%;
+    font-size: 30px;
   }
   
   .headerImg {
