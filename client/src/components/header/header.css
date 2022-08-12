@@ -14,27 +14,19 @@
     color: #444;
   }
   
-  .headerTitleSm {
-    position: absolute;
-    top: 18%;
-    font-size: 20px;
-  }
+  
 
   .headerQuestion {
-    position: absolute;
-    top: 20%;
     font-size: 80px;
   }
   
   .headerTitleLg {
    
-    position: absolute;
-    top: 10%;
     font-size: 100px;
   }
   
   .headerImg {
-    width: 100%;
+    width: 100vw;
     height: 450px;
     margin-top: 80px;
     object-fit: cover;
