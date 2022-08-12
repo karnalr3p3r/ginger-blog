@@ -32,7 +32,7 @@ export default function TopBar() {
           </li>
           <li className="topListItem">
             <Link className="link" to="/write">
-              Post
+              POST YOUR STORY
             </Link>
           </li>
           <li className="topListItem" onClick={handleLogout}>
