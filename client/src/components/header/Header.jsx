@@ -4,11 +4,11 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitleSm">The Life of a Ginger</span>
+        <h1 className="headerTitleSm">The Life of a Ginger</h1>
       </div>
       <img
         className="headerImg"
-        src="https://cdn.britannica.com/05/99605-050-7C2A6766/view-Ireland-coastline.jpg"
+        src="http://www.paperflite.com/sites/default/files/2020-01/WaldoBanner.jpg"
       />
     </div>
   );
