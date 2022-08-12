@@ -1,5 +1,3 @@
-import "./header.css";
-
 export default function Header() {
   return (
     <div className="header">
@@ -10,6 +8,7 @@ export default function Header() {
       <img
         className="headerImg"
         src="http://www.paperflite.com/sites/default/files/2020-01/WaldoBanner.jpg"
+        alt=""
       />
     </div>
   );

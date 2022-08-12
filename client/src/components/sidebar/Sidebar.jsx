@@ -1,7 +1,6 @@
 import { axiosInstance } from "../../config";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./sidebar.css";
 
 export default function Sidebar() {
   const [cats, setCats] = useState([]);
@@ -35,13 +34,28 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW MY SOCIALS</span>
         <div className="sidebarSocial">
-          <a href="https://facebook.com/" className="sidebarLink">
+          <a
+            href="https://facebook.com/"
+            className="sidebarLink"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="sidebarIcon fab fa-facebook-square"></i>
           </a>
-          <a href="https://twitter.com/karnalr3p3r" className="sidebarLink">
+          <a
+            href="https://twitter.com/karnalr3p3r"
+            className="sidebarLink"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="sidebarIcon fab fa-twitter-square"></i>
           </a>
-          <a href="https://instagram.com/karnalr3p3r" className="sidebarLink">
+          <a
+            href="https://instagram.com/karnalr3p3r"
+            className="sidebarLink"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="sidebarIcon fab fa-instagram-square"></i>
           </a>
         </div>

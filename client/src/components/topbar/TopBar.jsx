@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
-import "./topbar.css";
 
 export default function TopBar() {
   const { user, dispatch } = useContext(Context);
@@ -13,13 +12,21 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <a href="https://facebook.com/">
+        <a href="https://facebook.com/" target="_blank" rel="noreferrer">
           <i className="topIcon fab fa-facebook-square"></i>
         </a>
-        <a href="https://twitter.com/karnalr3p3r">
+        <a
+          href="https://twitter.com/karnalr3p3r"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="topIcon fab fa-twitter-square"></i>
         </a>
-        <a href="https://instagram.com/karnalr3p3r">
+        <a
+          href="https://instagram.com/karnalr3p3r"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="topIcon fab fa-instagram-square"></i>
         </a>
       </div>
