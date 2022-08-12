@@ -13,18 +13,16 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <a href="https://facebook.com/" target="_blank" rel="noreferrer">
-          <i className="topIcon fab fa-facebook-square"></i>
-        </a>
         <a
-          href="https://twitter.com/karnalr3p3r"
+          href="https://www.facebook.com/jacob.devereaux.79"
           target="_blank"
           rel="noreferrer"
         >
-          <i className="topIcon fab fa-twitter-square"></i>
+          <i className="topIcon fab fa-facebook-square"></i>
         </a>
+
         <a
-          href="https://instagram.com/karnalr3p3r"
+          href="https://www.instagram.com/theone_ginger/"
           target="_blank"
           rel="noreferrer"
         >

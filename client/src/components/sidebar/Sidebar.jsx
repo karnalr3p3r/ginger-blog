@@ -43,16 +43,9 @@ export default function Sidebar() {
           >
             <i className="sidebarIcon fab fa-facebook-square"></i>
           </a>
+
           <a
-            href="https://twitter.com/karnalr3p3r"
-            className="sidebarLink"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="sidebarIcon fab fa-twitter-square"></i>
-          </a>
-          <a
-            href="https://instagram.com/karnalr3p3r"
+            href="https://www.instagram.com/karnalr3p3r/"
             className="sidebarLink"
             target="_blank"
             rel="noreferrer"
