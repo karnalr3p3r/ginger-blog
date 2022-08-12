@@ -12,7 +12,7 @@
     .left-container {
        display: flex;
        align-items: center;
-       justify-content: space-evenly;
+       justify-content: center;
      }
   .right-container {
     display: flex;

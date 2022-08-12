@@ -24,17 +24,23 @@
     .link-container {
         margin: 5px;
         font-size: 1rem;
-        width: auto;
+        width: 50px;
     }
     .navigation-container {
-        justify-content: space-around;
+        justify-content: center;
+    }
+    .center-container {
+        justify-content: center;
     }
     .left-container {
-        justify-content: center;
+        align-items: center;
+        justify-content: left;
     }
     .right-container {
-        justify-content: center;
+        justify-content: right;
     }
+    
+   
     /* Posts */
 
     .post {
@@ -45,20 +51,178 @@
         width: 325px;
     }
 
+    
+    .writeFormGroup {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .writeText {
+        width: 250px;
+       
+    }
+    .writeImg {
+        margin-left: 0px;
+    }
+    .writeInput {
+        width: auto;
+    }
+
+    .writeSubmit {
+        position: relative;
+    }
+
   }
   @media (max-width: 1180px) {
-    .header {
-        font-size: 30px;
+    .headerQuestion {
+        font-size: 1rem;
+    }
+    .headertitleLg {
+        font-size: 1.5rem;
     }
     .headerImg {
         height: auto;
         margin-top: 40;
     }
+
+    /* Sidebar */
+    .sidebar {
+        display: none;
+    }
+    /* Navigation */
+    .topIcon { 
+        font-size: 15px;
+    }
+    
+    .link-container {
+        margin: 5px;
+        font-size: 1rem;
+        width: 50px;
+    }
+    .navigation-container {
+        justify-content: center;
+    }
+    .center-container {
+        justify-content: center;
+    }
+    .left-container {
+        align-items: center;
+        justify-content: left;
+    }
+    .right-container {
+        justify-content: right;
+    }
+    
+   
+    /* Posts */
+
+    .post {
+        width: 325px;
+    }
+
+    .postImg {
+        width: 325px;
+    }
+
+    
+    .writeFormGroup {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .writeText {
+        width: 250px;
+       
+    }
+    .writeImg {
+        margin-left: 0px;
+    }
+    .writeInput {
+        width: auto;
+    }
+
+    .writeSubmit {
+        position: relative;
+    }
+
    
 
   }
   
-  /* @media (max-width: 615px) {
+  @media (max-width: 615px) {
    
+    .headerQuestion {
+        font-size: 1rem;
+    }
+    .headertitleLg {
+        font-size: 1.5rem;
+    }
+    .headerImg {
+        height: auto;
+        margin-top: 40;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        display: none;
+    }
+    /* Navigation */
+    .topIcon { 
+        font-size: 15px;
+    }
     
-  } */
+    .link-container {
+        margin: 5px;
+        font-size: 1rem;
+        width: 50px;
+    }
+    .navigation-container {
+        justify-content: center;
+    }
+    .center-container {
+        justify-content: center;
+    }
+    .left-container {
+        align-items: center;
+        justify-content: left;
+    }
+    .right-container {
+        justify-content: right;
+    }
+    
+   
+    /* Posts */
+
+    .post {
+        width: 325px;
+    }
+
+    .postImg {
+        width: 325px;
+    }
+
+    
+    .writeFormGroup {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .writeText {
+        width: 250px;
+       
+    }
+    .writeImg {
+        margin-left: 0px;
+    }
+    .writeInput {
+        width: auto;
+    }
+
+    .writeSubmit {
+        position: relative;
+    }
+
+  }
