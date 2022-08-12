@@ -21,7 +21,8 @@
     width: 80%;
     border-top: 1px solid #a7a4a4;
     border-bottom: 1px solid #a7a4a4;
-    font-family: 'Nunito', sans-serif;    font-size: 12px;
+    font-family: 'Nunito', sans-serif;  
+    font-size: 12px;
     color: #222;
     font-weight: 600;
     line-height: 20px;
@@ -30,11 +31,10 @@
   
   .sidebarItem > img {
     margin-top: 15px;
+    height: 150px;
   }
   
-  .sidebarItem > p {
-    padding: 30px;
-  }
+  
   
   .sidebarList {
     list-style: none;
@@ -56,8 +56,9 @@
     justify-content: center;
   }
   
-  .sidebarIcon{
+  .sidebarLink > .sidebarIcon{
       font-size: 16px;
       margin-left: 10px;
       cursor: pointer;
+      color: #222;
   }

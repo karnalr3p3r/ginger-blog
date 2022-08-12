@@ -35,13 +35,13 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW MY SOCIALS</span>
         <div className="sidebarSocial">
-          <a href="https://facebook.com/">
+          <a href="https://facebook.com/" className="sidebarLink">
             <i className="sidebarIcon fab fa-facebook-square"></i>
           </a>
-          <a href="https://twitter.com/karnalr3p3r">
+          <a href="https://twitter.com/karnalr3p3r" className="sidebarLink">
             <i className="sidebarIcon fab fa-twitter-square"></i>
           </a>
-          <a href="https://instagram.com/karnalr3p3r">
+          <a href="https://instagram.com/karnalr3p3r" className="sidebarLink">
             <i className="sidebarIcon fab fa-instagram-square"></i>
           </a>
         </div>
