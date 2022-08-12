@@ -38,7 +38,7 @@ export default function NavBar() {
           </li>
           <li className="link-container">
             <Link className="link" to="/write">
-              RED'S HUT
+              POST
             </Link>
           </li>
           <li className="link-container" onClick={handleLogout}>
