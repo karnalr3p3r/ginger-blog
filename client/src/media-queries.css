@@ -1,12 +1,60 @@
 @media (max-width: 912px) {
-    .header {
-        font-size: auto;
+    
+    /* Header */
+    .headerQuestion {
+        font-size: 1rem;
+    }
+    .headertitleLg {
+        font-size: 1.5rem;
     }
     .headerImg {
         height: auto;
         margin-top: 40;
     }
 
+    /* Sidebar */
+    .sidebar {
+        display: none;
+    }
+    /* Navigation */
+    .topIcon { 
+        font-size: 15px;
+    }
+    
+    .link-container {
+        margin: 5px;
+        font-size: 1rem;
+        width: auto;
+    }
+    .navigation-container {
+        justify-content: space-around;
+    }
+    .left-container {
+        justify-content: center;
+    }
+    .right-container {
+        justify-content: center;
+    }
+    /* Posts */
+
+    .post {
+        width: 325px;
+    }
+
+    .postImg {
+        width: 325px;
+    }
+
+  }
+  @media (max-width: 1180px) {
+    .header {
+        font-size: 30px;
+    }
+    .headerImg {
+        height: auto;
+        margin-top: 40;
+    }
+   
 
   }
   
